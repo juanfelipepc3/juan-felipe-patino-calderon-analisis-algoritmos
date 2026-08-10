@@ -13,3 +13,7 @@ Repositorio para los laboratorios y ejercicios prácticos del curso de Análisis
 \`\`\`bash
 git clone https://github.com/juanfelipepc3/juan-felipe-patino-analisis-algoritmos.git
 \`\`\`
+
+## Autor
+
+Juan Felipe Patiño Calderón
