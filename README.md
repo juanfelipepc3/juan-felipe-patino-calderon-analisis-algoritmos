@@ -9,9 +9,9 @@ Repositorio para los laboratorios y ejercicios prácticos del curso de Análisis
 - `benchmarks/`: scripts compartidos de medición de tiempos y graficación.
 
 ## Cómo clonar este repositorio
-
+```bash
 git clone https://github.com/juanfelipepc3/juan-felipe-patino-analisis-algoritmos.git
-
+```
 
 ## Autor
 
