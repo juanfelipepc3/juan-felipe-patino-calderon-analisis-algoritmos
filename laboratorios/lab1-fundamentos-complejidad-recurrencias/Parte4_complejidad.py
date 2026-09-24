@@ -1,14 +1,5 @@
-"""Experimento de la Parte 4: validacion experimental de la complejidad.
-
-Compara el tiempo de ejecucion de insertion_sort y merge_sort sobre el
-escenario A (aleatorio) de Tamiza, para los mismos tamanos de entrada
-de la Parte 3, y genera la grafica parte4_tiempo.png.
-"""
-
 import time
-
 import matplotlib.pyplot as plt
-
 from algoritmos import insertion_sort, merge_sort
 from datos import generar_aleatorio
 
