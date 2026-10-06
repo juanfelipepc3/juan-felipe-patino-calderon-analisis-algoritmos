@@ -43,7 +43,7 @@
 
 **Lo que puede mejorar:**
 - `medir_escenario` y `medir_algoritmo` no tienen tipo en el parámetro de la función recibida.
-- Los archivos no terminan con una línea en blanco (aviso de estilo PEP 8) y los scripts no traen docstring al inicio del archivo.
+- Los scripts no traen docstring al inicio del archivo.
 
 ## 4. Calidad del análisis de las gráficas (17 / 20)
 **Lo que hizo bien:**
