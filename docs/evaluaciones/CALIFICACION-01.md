@@ -54,7 +54,7 @@
 
 **Lo que puede mejorar:**
 - Declare con claridad que las cifras de la extrapolación son una estimación con supuestos, no una medición, y cite la gráfica de donde sacó el dato.
-- Los tiempos de la tabla de la Parte 4 (por ejemplo 0.575 s para n = 6400) no coinciden con lo que muestra la gráfica publicada (cerca de 0.48 s). Use los mismos datos en ambos.
+- Los tiempos de la tabla de la Parte 4 (por ejemplo 0.575 s para insertion sort con n = 6400) no coinciden con lo que muestra la gráfica publicada (cerca de 2,16 s para insertion sort y 0,03 s para merge sort). Use los mismos datos en ambos.
 - La conclusión sobre el servidor del doble de velocidad quedaría más sólida si indicara que el costo cuadrático lo supera en cuanto el volumen crezca.
 
 ## 5. Documentación y organización del informe (5 / 10)
