@@ -44,9 +44,12 @@ def medir_tiempos():
     plt.grid(True)
 
     # Guardar gráfica
-    os.makedirs('graficas', exist_ok=True)
-    plt.savefig('graficas/tiempo_vs_n.png')
-    print("Gráfica guardada en graficas/tiempo_vs_n.png")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    graficas_dir = os.path.join(base_dir, 'graficas')
+    os.makedirs(graficas_dir, exist_ok=True)
+    ruta_grafica = os.path.join(graficas_dir, 'tiempo_vs_n.png')
+    plt.savefig(ruta_grafica)
+    print(f"Gráfica guardada en {ruta_grafica}")
 
 if __name__ == "__main__":
     medir_tiempos()
