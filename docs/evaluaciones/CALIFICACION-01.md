@@ -69,7 +69,7 @@
 - Varios mensajes de commit son poco descriptivos ("Corrección gráficas parte 3") y casi todo se subió el mismo día.
 
 ## ¿El código funciona?
-Sí. Los dos scripts corren sin errores y generan las gráficas. Ambos algoritmos ordenaron bien en mis pruebas con listas pequeñas y aleatorias, y el conteo de comparaciones es el esperado (por ejemplo, n − 1 en una lista ya en orden).
+Sí. Los dos scripts corren sin errores y generan las gráficas. Ambos algoritmos ordenaron bien con listas pequeñas y aleatorias, y el conteo de comparaciones es el esperado (por ejemplo, n − 1 en una lista ya en orden).
 
 ## Para el próximo laboratorio
 - Nombre los archivos exactamente como pide el entregable y revise que los enlaces abran en GitHub.
