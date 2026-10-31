@@ -93,3 +93,10 @@ Esto instala exactamente las mismas versiones de las librerías usadas en este p
   1. **Fuerza Bruta:** con complejidad asintótica $\Theta(n^2)$.
   2. **Divide y Vencerás:** resolviendo el caso cruzado con una complejidad $\Theta(n \log n)$.
 - **Entregables:** Incluye algoritmos (`subarreglo.py`), pruebas de correctitud (`pruebas.py`), un script de medición de tiempos que genera gráficas comparativas (`medicion.py`) usando `matplotlib`, y un análisis teórico basado en el Teorema Maestro.
+
+### [Laboratorio 3: Estructuras de Datos (Lista Enlazada y Tabla Hash)](laboratorios/lab3-estructuras-datos/)
+- **Ubicación:** `laboratorios/lab3-estructuras-datos/`
+- **Descripción:** Rediseño de un sistema de consulta de guías de envío para la empresa Rutas del Caribe, reemplazando una lista enlazada por una tabla hash con encadenamiento:
+  1. **Lista enlazada:** inserción al inicio en Θ(1) y búsqueda iterativa en Θ(n).
+  2. **Tabla hash:** función hash por división (`k mod m`), encadenamiento con listas enlazadas y búsqueda promedio en Θ(1 + α).
+- **Entregables:** Incluye las estructuras de datos (`estructuras.py`), pruebas de verificación con colisiones forzadas y 20 colecciones aleatorias (`pruebas.py`), un script de medición que genera gráficas comparativas (`medicion.py`), y un análisis teórico comparando tabla hash vs árbol de búsqueda binario para consultas puntuales y por rango.
